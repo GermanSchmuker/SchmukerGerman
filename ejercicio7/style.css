@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+h1{
+    background-color: #fffef7;
+    width: 60%;
+    height: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Droid Sans Mono", "DejaVu Sans Mono", "Monospace", monospace;
+    margin-top: 1em;
+    background-color: #1a1a1a;
+    color: #00fa00;
+}
+
+
+.titulo_ejercicio{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #1a1a1a;
+    padding: .2em;
+    font-size: 1.3em;
+
+}
+
+.consigna{
+    color: grey;
+}
+
+.ejercicio{
+    padding: 1.2em;
+    background-color: #fffef7;
+    width: 60%;
+    min-height: 5em;
+    margin: 1em;
+    font-family: "Monospace", monospace;
+}
+
+.ejercicio:hover{
+    outline: 2px solid #00fa00;
+    box-shadow: 0px 0px 10px #00fa00;
+}
+
+::selection {
+    background-color: #1a1a1a;
+    color: #00fa00;
+}
+

@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+.consigna{
+    color: grey;
+}
+
+.ejercicio{
+    padding: 1.2em;
+    background-color: #fffef7;
+    width: 60%;
+    min-height: 5em;
+    margin: 1em;
+    font-family: "Monospace", monospace;
+}
+
+.ejercicio:hover{
+    outline: 2px solid #00fa00;
+    box-shadow: 0px 0px 10px #00fa00;
+}
+
+::selection {
+    background-color: #1a1a1a;
+    color: #00fa00;
+}
